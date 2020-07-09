@@ -11,13 +11,15 @@
 </head>
 <body>
 <!-------------------------------- Navigation Bar -------------------->
-<div class="nav">
+<div class="nav" id="nav">
     <div>
         <ul class="ul">
-            <li class="li"><a href="#">Contact Me</a></li>
-            <li class="li"><a href="#">Achievements</a></li>
-            <li class="li"><a href="#">About</a></li>
-            <li class="li"><a href="#">Home</a></li>
+            <li class="li"><a href="#footer">Contact Me</a></li>
+            <li class="li"><a href="#Achievements">Achievements</a></li>
+            <li class="li"><a href="#education">Education</a></li>
+            <li class="li"><a href="#professional_skills">Skills</a></li>
+            <li class="li"><a href="#about">About</a></li>
+            <li class="li"><a href="#nav">Home</a></li>
             <li class="name">
                 <div>
                     <div style="font-family: 'Fjalla One',sans-serif">
@@ -28,21 +30,21 @@
         </ul>
     </div>
 </div>
-<!----------------------------------- Header ------------------------->
+<!------------------------------------------------------------- Header -------------------------------------------->
 <div>
     <header class="header">
         <div class="header-text">
             <img src="resources/avatar_image.jpg" alt="YashRaj Verma" title="YashRaj Verma" id="avatar"/>
             <h1 style="font-size: 30px">I'm YashRaj Verma</h1>
             <p>Java Developer | Android Developer | Web Developer </p>
-            <button><b>Contact me</b></button>
+            <button><b><a href="resources/resume.pdf" target="_blank" title="See Resume">Resume</a></b></button>
         </div>
     </header>
 </div>
 <div class="main-content">
     <div>
 
-        <div class="container">
+        <div class="container" id="about">
             <div class="clearfix">
                 <section style="float: left;">
                     <h1 class="about"><b>About</b></h1>
@@ -56,12 +58,11 @@
                         I Love learning new technologies and I believe in magnifying skills instead of modifying
                         dreams.
                     </p>
+                </section>
 
                     <!------------------------------------------------------ Educational Skils Section---------------------------------------->
 
-
-                </section>
-                <section style="float: right;margin-left: 50px">
+                <section style="float: right;margin-left: 50px" id="education" >
                     <h1 class="about"><b>Basic Information</b></h1>
                    <ul class="about-ul">
                        <li ><p><b>Age :</b>20 </p></li>
@@ -94,7 +95,7 @@
         <!------------------------------------------------------ Professional Skils Section------------------------------------------------------>
 
 
-        <div style="text-align: center;overflow: hidden;margin-top: 10px">
+        <div style="text-align: center;overflow: hidden;margin-top: 10px" id="professional_skills">
             <h1><b>Professional Skills</b></h1>
             <section class="professional">
                 <div>
@@ -112,9 +113,28 @@
             </section>
         </div>
     </div>
+    <!---------------------------------------------- Achievements --------------------------------------------------------->
 
-    <!-------------------------------- Footer ------------------------------------>
-    <footer class="footer">
+    <div style="text-align: center;overflow: hidden;margin-top: 10px" id="Achievements">
+        <h1><b>Professional Skills</b></h1>
+        <section class="professional">
+            <div>
+                <section >
+
+                </section>
+                <section >
+
+                </section>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+    <!----------------------------------------------- Footer ---------------------------------------------------->
+
+    <footer class="footer" id="footer">
         <div class="clearfix">
             <ul class="footer ul">
                 <li class="footer li "><a href="https://www.facebook.com/profile.php?id=100008109615645" target="_blank" class="li-fb"><i
