@@ -6,6 +6,7 @@
     <title>YashRaj Verma</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87060d5d5f.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -19,7 +20,7 @@
             <li class="li"><a href="#">Home</a></li>
             <li class="name">
                 <div>
-                    <div>
+                    <div style="font-family: 'Fjalla One',sans-serif">
                         YashRaj Verma
                     </div>
                 </div>
@@ -29,45 +30,102 @@
 </div>
 <!----------------------------------- Header ------------------------->
 <div>
-    <header class="header"></header>
+    <header class="header">
+        <div class="header-text">
+            <img src="resources/avatar_image.jpg" alt="YashRaj Verma" title="YashRaj Verma" id="avatar"/>
+            <h1 style="font-size: 30px">I'm YashRaj Verma</h1>
+            <p>Java Developer | Android Developer | Web Developer </p>
+            <button><b>Contact me</b></button>
+        </div>
+    </header>
 </div>
 <div class="main-content">
-        <div>
-            <div class="container">
-                <div  class="basicInfo">
-                    <div class="clearfix">
-                        <div >
-                            <h1 class="about">About</h1>
-                            <p style="color: gray;padding: 10px;font-size:medium"> Hi , I am a Software Engineering Student.
-                                I'm a Java developer , Android Developer and Web Developer.
-                            </p>
-                            <p style="padding: 10px;font-size: medium;color: gray">
-                                I Love learning new technologies and I believe in magnifying skills instead of modifying
-                                dreams.
-                            </p>
-                        </div>
-                        <div>
-                            <h1 class="about">Basic Information</h1>
-                            <p style="padding: 10px;font-size: medium;color: gray"><strong>Age:</strong>20</p>
-                            <p style="padding: 10px;font-size: medium;color: gray"><strong>Email:</strong>yashraj.verma_cs18@gla.ac.in</p>
-                            <p style="padding: 10px;font-size: medium;color: gray"><strong>Phone:</strong>8839080272</p>
-                            <p style="padding: 10px;font-size: medium;color: gray"><strong>Language:</strong>English , Hindi</p>
+    <div>
 
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="clearfix">
+                <section style="float: left;">
+                    <h1 class="about"><b>About</b></h1>
+                    <p style="color: gray;padding: 10px;font-size:medium;font-family: 'Fjalla One', sans-serif">
+                        Hi , I am a Software Engineering Student.
+                        I'm a Java developer , Android Developer and Web Developer.
 
-                </div>
+                    </p>
+                    <p style="padding: 10px;font-size: medium;color: gray;font-family: 'Fjalla One', sans-serif">
+
+                        I Love learning new technologies and I believe in magnifying skills instead of modifying
+                        dreams.
+                    </p>
+
+                    <!------------------------------------------------------ Educational Skils Section---------------------------------------->
+
+
+                </section>
+                <section style="float: right;margin-left: 50px">
+                    <h1 class="about"><b>Basic Information</b></h1>
+                   <ul class="about-ul">
+                       <li ><p><b>Age :</b>20 </p></li>
+                       <li ><p><b>Email :</b>yashraj.verma_cs18@gla.ac.in </p></li>
+                       <li ><p><b>Phone :</b>8839080272 </p></li>
+                       <li ><p><b>Language :</b>English , Hindi </p></li>
+                   </ul>
+                </section>
             </div>
         </div>
+        <div style="text-align: center;overflow: hidden">
+            <h1><b>Education</b></h1>
+            <section class="education">
+                <section >
+                    <p> 2018 -2022 </p>
+                    <p><b>Gla University , Mathura</b></p>
+                    <h1>Bachelore of Technology (B.Tech) in Computer Science </h1>
+                </section>
+            </section>
+            <section class="education">
+                <section >
+                    <p> 2016 -2028 </p>
+                    <p><b>Victor Convent School , Morena</b></p>
+                    <h1>12th from Maths,Physics,Chemistry </h1>
+                </section>
+            </section>
+        </div>
+
+
+        <!------------------------------------------------------ Professional Skils Section------------------------------------------------------>
+
+
+        <div style="text-align: center;overflow: hidden;margin-top: 10px">
+            <h1><b>Professional Skills</b></h1>
+            <section class="professional">
+                <div>
+                    <section id="technical">
+                        <h1>Java Development</h1>
+                        <h1>Android Development</h1>
+                        <h1>Web Development</h1>
+                    </section>
+                    <section id="nontechnical">
+                        <h1>Adobe photoshop</h1>
+                        <h1>Team Management</h1>
+                        <h1>Ms Office</h1>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </div>
 
     <!-------------------------------- Footer ------------------------------------>
     <footer class="footer">
         <div class="clearfix">
             <ul class="footer ul">
-                <li class="footer li"><a href="#">FaceBook</a></li>
-                <li class="footer li"><a href="#">InstaGram</a></li>
-                <li class="footer li"><a href="#">LinkedIn</a></li>
-                <li class="footer li"><a href="#">GitHub</a></li>
+                <li class="footer li "><a href="https://www.facebook.com/profile.php?id=100008109615645" target="_blank" class="li-fb"><i
+                        class="fab fa-facebook-f"></i></a></li>
+                <li class="footer li"><a href="https://www.linkedin.com/in/yashraj-verma-634710154/" target="_blank" class="li-linked"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+                <li class="footer li"><a href="https://www.instagram.com/yashraj._verma/" target="_blank" class="li-in"><i
+                        class="fab fa-instagram"></i></a></li>
+                <li class="footer li"><a href="mailto:yashraj.verma_cs18@gla.ac.in" target="_blank" class="li-mail"><i
+                        class="fas fa-envelope"></i></a></li>
+                <li class="footer li"><a href="#" class="li-p">About Me</a></li>
             </ul>
             <div class="copyright">
                 © Yashraj Verma. All rights reserved.
