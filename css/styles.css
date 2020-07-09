@@ -74,7 +74,7 @@ html,body{
     color: white;
     transform: translate(-50%,-30%);
 }
-.header-text button {
+.header-text button{
     border: none;
     border-radius:10px ;
     outline: 0;
@@ -84,9 +84,11 @@ html,body{
     background-color: #292920;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .header-text button:hover {
+    text-decoration: none;
     box-shadow: -2px 2px 47px 5px rgba(30, 30, 60, 0.27);
     border-radius:10px ;
     background-color: white;
