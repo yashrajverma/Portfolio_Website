@@ -7,6 +7,11 @@ html,body{
 *{
     box-sizing: border-box;
 }
+.heading{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
 .clearfix{
     content: "";
     clear: both;
@@ -33,12 +38,29 @@ html,body{
 .li a{
     text-align: center;
     padding: 17px 16px 15px;
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
     display: inline-block;
     color: white;
     background: none;
     border-radius: 6px;
+}
+@media screen and (max-width:700px ){
+    .li a{
+        padding:5px 5px 7px;
+        margin: 2px;
+    }
+    .li{
+        text-align: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .main-content{
+        width: 24%;
+        margin: 0 5px;
+        padding: 5px;
+    }
 }
 .li a:hover{
     transform: scale(1.03);
@@ -48,12 +70,13 @@ html,body{
     border-radius: 6px;
 }
 .name{
+    font-family: 'Fjalla One',sans-serif;
     float: left;
     color: white;
     margin-left: 25px;
     padding: 8px;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 4px;
     letter-spacing: 1px;
     font-size: 24px;
     background: none;
